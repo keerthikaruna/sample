@@ -12,6 +12,8 @@ pipeline {
                 echo "dev sucess"
             }
         }  
-        
+        stage('env') {
+            steps {
+                echo "env sucess" 
     }
 }
